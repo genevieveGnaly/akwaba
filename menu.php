@@ -15,7 +15,7 @@ include('connexion.php');
  </head>
  <body>
  	<div class="container-fluid">
- 		<nav class="navbar navbar-default  " role="navigation">
+ 		<nav class="navbar navbar-default" role="navigation">
  			<div class="navbar-header">
  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
  					<span class="sr-only">MENU</span>
@@ -29,16 +29,12 @@ include('connexion.php');
  			</div>
  			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
  				<ul class="nav navbar-nav navbar-right">
- 					<li><a href="#" role="button" class="btn btn-default"><h4>S'ABONNER</h4></a></li>
- 					<li class="active"><a href="visiteurs.php"><h4>VISITEURS</h4></a></li>
+ 					<li><a href="accueil.php"><h4>VISITEURS</h4></a></li>
  					<li><a href="professionnels.php"><h4>PROFESSIONNELS</h4></a></li>
  					<li><a href="phototeque.php"><h4>PHOTOTHEQUE</h4></a></li>
  				</ul>
  			</div>
  		</nav>
-
-
-
  
  </body>
  </html>
